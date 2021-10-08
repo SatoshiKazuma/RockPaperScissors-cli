@@ -63,7 +63,8 @@ for i in range(rounds):
             
     else:
         print(f'pick a valid hand, {hand} is not valid')
-
+        quit()
+        
 print(f'\nYour scored {score} and the system scored {systemscore}')
 
 if score > systemscore:
