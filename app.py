@@ -40,7 +40,12 @@ def rockpaperscissor(hand, syshand):
             return int(1)
         else:
             print('Draw')
-    
+    else:
+        print("This hand is not valid.")
+        print('''
+        Try another hand 
+        [or]
+        Quit the game.''')
 
 print('''
 Rock, Paper, Scissor!
