@@ -1,0 +1,10 @@
+system,user,sysres,usrres
+rock,paper,0,1
+paper,scissor,0,1
+scissor,rock,0,1
+paper,rock,1,0
+scissor,paper,1,0
+rock,scissor,1,0
+rock,rock,0,0
+paper,paper,0,0
+scissor,scissor,0,0
