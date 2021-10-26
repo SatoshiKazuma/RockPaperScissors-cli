@@ -1,4 +1,5 @@
 # RockPaperScissors-cli
+![rockpaperscissor](https://user-images.githubusercontent.com/88662373/138891401-c638dbf9-2498-4ab4-acc8-2eba071d583b.jpeg)
 
 This is a simple program that simulates a game of 'rock-paper-scissors' with a variable amount of rounds.
 
