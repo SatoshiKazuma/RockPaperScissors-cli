@@ -28,6 +28,11 @@ class rockpaperscissorsgame:
                                 userscore += 1
                             elif row['sysres'] == str(2):
                                 print('Tie')
+                            else:
+                                print('''This was not supposed to happen.
+                                But i'm sure we can figure something out by ourselves, 
+                                This is, afterall, an attempt to waste some more of our
+                                time.''')
                             # print(f'user score is {userscore}')
                             break
                         accept = True
@@ -46,3 +51,4 @@ try:
     game1.play()
 except KeyboardInterrupt:
     print('\nGame terminated')
+    
