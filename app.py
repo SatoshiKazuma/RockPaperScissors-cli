@@ -47,7 +47,8 @@ class rockpaperscissorsgame:
         elif systemscore == userscore:
             print('Ties')
 try:
-    game1 = rockpaperscissorsgame(3)
+    rounds = int(input('Rounds: '))
+    game1 = rockpaperscissorsgame(rounds)
     game1.play()
 except KeyboardInterrupt:
     print('\nGame terminated')
